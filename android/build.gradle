@@ -68,6 +68,6 @@ repositories {
 dependencies {
   //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"  // From node_modules
-  implementation "com.google.firebase:firebase-messaging:${safeExtGet('firebaseMessagingVersion', '20.2.+')}"
+  implementation 'com.google.firebase:firebase-messaging-ktx'
   implementation 'io.intercom.android:intercom-sdk:15.13.+'
 }
